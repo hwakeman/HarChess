@@ -1,10 +1,11 @@
-import { Link, Outlet} from 'react-router-dom';
+import Sidebar from '../components/Sidebar';
+import Header from '../components/Header';
 
 function Home() {
     return (
         <>
-            <Link to="/login">Login</Link>
-            <Outlet />
+            <Header/>
+            <Sidebar/>
         </>
     )
 }
