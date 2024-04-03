@@ -11,8 +11,8 @@ function Header() {
                 <h1>HarChess</h1>
             </div>
             <div className='header-section header-buttons'>
-                <button className='header-button'>Sign Up</button>
-                <button className='header-button'>Login</button>
+                <button className='header-button'><Link className='header-link' to="/sign-up">Sign Up</Link></button>
+                <button className='header-button'><Link to="/login">Login</Link></button>
             </div>
         </header>
     )

@@ -16,18 +16,10 @@
     height: 100%;
 }
 
-button {
+.header-button {
     margin-right: 15px;
     width: 100px;
     height: 40%;
-}
-
-a {
-    display: flex;
-    align-items: center;
-
-    height: 100%;
-    position: relative;
 }
 
 img {

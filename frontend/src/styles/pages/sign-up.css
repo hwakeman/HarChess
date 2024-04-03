@@ -1,0 +1,46 @@
+.sign-up-container {
+    width: clamp(300px, 50%, 500px);
+    height: 400px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    border-radius: 20px;
+
+    background-color: white;
+}
+
+.sign-up-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    height: 50%;
+}
+
+.sign-up-form > label {
+    color: black;
+}
+
+.sign-up-form > input {
+    border-radius: 15px;
+}
+
+.sign-up-home-link {
+    position: absolute;
+
+    height: 20px;
+
+    top: 15px;
+    left: 15px;
+}
+
+.sign-up-home-link > img {
+    height: 30px
+}
