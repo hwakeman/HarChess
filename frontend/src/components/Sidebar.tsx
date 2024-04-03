@@ -4,8 +4,11 @@ import '../styles/components/sidebar.css'
 function Sidebar() {
     return (
         <nav className="sidebar">
-            <Link to="/">Home</Link>
-            <Link to="/login">Login</Link>
+            <div className="sidebar-content">
+                <h2 className="sidebar-link"><Link to="/">Home</Link></h2>
+                <h2 className="sidebar-link"><Link to="/">Play</Link></h2>
+                <h2 className="sidebar-link"><Link to="/">Puzzles</Link></h2>
+            </div>
         </nav>
     )
 }
